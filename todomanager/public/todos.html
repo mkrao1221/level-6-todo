@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="todo-app.css">
+</head>
+<body>
+    <main class="PageMain">
+        <article>
+            <h1 class="pagetitle">My To-do list</h1>
+            <section class="Addtodo">
+                <input type="text" class="add-todo-text" placeholder="What's next?">
+                <input type="date" class="add-todo-date">
+                <input type="button" class="add-todo-button" value="Add">
+            </section>
+            <section class="Todosection">
+                <div class="todo-section-title">
+                    <p class="todo-section-title-text">Due Today</p>
+                    <p class="todo-section-title-remianingcount">0/4</p>
+                </div>
+                <ul>
+                    <li class="todo-item">
+                        <label  class="todo-item-container">
+                            <input type="checkbox" class="todo-item-checkbox">Submit Major Project
+                            <p class="todo-item-overduelabel">Overdue</p>
+                            
+                        </label>
+                    </li>
+                    <li class="todo-item">
+                        <label  class="todo-item-container">
+                            <input type="checkbox" class="todo-item-checkbox"> Complete case study 
+                            <i class="far fa-trash-alt" id="todo-item-delete"></i>
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="Todosection">
+                <div class="todo-section-title">
+                    <p class="todo-section-title-text">Due Tomorrow</p>
+                    <p class="todo-section-title-remianingcount">0/3</p>
+                </div>
+                <ul>
+                    <li class="todo-item">
+                        <label  class="todo-item-container">
+                            <input type="checkbox" class="todo-item-checkbox"> Present the topic
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="Todosection">
+                <div class="todo-section-title">
+                    <p class="todo-section-title-text">Remaining</p>
+                    <p class="todo-section-title-remianingcount">0/3</p>
+                </div>
+                <ul>
+                    <li class="todo-item">
+                        <label  class="todo-item-container">
+                            <input type="checkbox" class="todo-item-checkbox"> Complete assignment 
+                            <p class="todo-item-datelabel">Jan 21</p>
+                        </label>
+                    </li>
+                    <li class="todo-item">
+                        <label  class="todo-item-container">
+                            <input type="checkbox" class="todo-item-checkbox"> Complete assignment
+                            <p class="todo-item-datelabel">Jan 22</p>
+                        </label>
+                    </li>
+                    <li class="todo-item">
+                        <label  class="todo-item-container">
+                            <input type="checkbox" class="todo-item-checkbox"> Complete assignment
+                            <p class="todo-item-datelabel">Jan 23</p>
+                        </label>
+                    </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+</body>

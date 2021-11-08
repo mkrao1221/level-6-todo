@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.pagetitle {
+    font-size: 20px;
+    line-height: 1.6;
+    color:black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.Todosection {
+    margin-bottom: 20px;
+}
+section{
+    display:block;
+}
+article{
+    display: block;
+}
+.add-todo-text{
+    padding: 7px 12px;
+    font-size: 14px;
+    color: black;
+    margin-right: 10px;
+    border-radius:4px;
+    border:1px solid rgb(10, 10, 10);
+}
+.add-todo-date{
+    padding: 6px 12px;
+    font-size: 14px;
+    color: black;
+    margin-right: 10px;
+    border-radius:4px;
+    border:1px solid rgb(10, 10, 10);
+}
+.add-todo-button{
+    font-size: 14px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    padding: 8px 22px;
+    border-radius: 4px;
+}
+.todo-section-title{
+    display: flex;
+    color:rgb(10, 10, 10);
+    align-items: center;
+    margin-bottom: 8px;
+}
+.todo-section-title-text{
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 8px;
+    line-height: 1.4;
+}
+.todo-section-title-remainingcount{
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+}
+.todo-item{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-bottom: 6px;
+    color: black;
+}
+.todo-item-container{
+    display: inline-flex;
+    padding: 2px 8px;
+    align-items: center;
+}
+.todo-item-checkbox{
+    height: 16px;
+    width: 16px;
+}
+.todo-item-overduelabel{
+    margin-left: 10px;
+    color: red;
+    font-size: 12px;
+    display: inline;
+}
+#todo-item-delete{
+    display: inline;
+    margin-left: 8px;
+}
+.todo-item-datelabel{
+    margin-left: 10px;
+    color: grey;
+    font-size: 12px;
+    display: inline;
+}
